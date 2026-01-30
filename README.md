@@ -22,6 +22,18 @@ somabemschool/
     ├── settings.json
     └── themes.json
 
+# SomaBemSchoolaoV2
+
+
+# Instalar dependências
+pip install PySide6 matplotlib pandas qrcode[pil] sqlalchemy psycopg2-binary
+
+# Executar aplicação
+python sistema_completo.py
+
+# Para desenvolvimento
+python -m pdb sistema_completo.py
+
 
 # 1. Clone o repositório
 git clone https://github.com/seu-usuario/somabemschool.git
